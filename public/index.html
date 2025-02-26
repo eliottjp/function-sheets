@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Function Sheet Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>Function Sheet Generator</h1>
+
+        <!-- Email Input -->
+        <form id="emailForm">
+            <textarea id="emailInput"
+                placeholder="Paste event email here"></textarea>
+            <button type="submit">Extract Details</button>
+        </form>
+
+        <!-- Manual Form -->
+        <form id="manualForm">
+            <input type="text" name="eventName" placeholder="Event Name">
+            <input type="date" name="eventDate">
+            <input type="text" name="venue" placeholder="Venue">
+            <button type="submit">Save Function Sheet</button>
+        </form>
+
+        <script type="module" src="js/app.js"></script>
+    </body>
+</html>
